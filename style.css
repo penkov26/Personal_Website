@@ -1,0 +1,217 @@
+/* CSS Document by Miroslav Penkov 2010 */
+
+
+body
+{
+	margin: 0 0 15px 0;
+	padding: 0;
+	background: #fffefd;
+	font-size: 75%;
+	font-family: "arial", "verdana", "tahoma", "georgia", "trebuchet ms";
+	color: #656464;
+	 
+}
+
+img
+{
+	border: 0;
+}
+
+
+
+/*-------------------------------------- Dimensions of the Main Frame -------------------------------*/
+
+
+#container
+{
+	margin: 0 auto;
+	width: 1000px;
+}
+
+
+/*-------------------------------- Header Panels: Left Picture Panel and Right Panel with Menu list ------------------*/
+
+#headercont
+{
+	width: 1000px;
+	height: 135px;
+	border-bottom: 2px solid #AA262D;
+}
+
+#headerleft
+{
+	float: left;
+	width: 500px;
+	height: 135px; 
+	background: #fffefd url('images/left.jpg') no-repeat;
+}
+
+#headerleft h1
+{
+	margin: 0px 0 0 5px;
+	padding: 0;
+	font-size: 130%;
+	font-weight: normal;
+	color: #AA262D;
+	letter-spacing: -1px;
+}
+
+#headerleft h1 span
+{
+	color: #FFC875;
+	font-weight: normal;
+}
+
+#headerright
+{
+	float: right;
+	width: 500px;
+	height: 135px;
+	background: #fffefd url('images/right.jpg') no-repeat;
+}
+
+#headerright ul
+{
+	margin: 35px 35px 0 0;
+	padding: 0;
+	list-style-type: none;
+	text-align: right;
+	color: #CCC;
+	font-size: 105%;
+	font-family: "arial"
+}
+
+#headerright ul li
+{
+	display: inline;
+	margin: 0 0 0 4px;
+}
+
+#headerright ul li a
+{
+	text-decoration: none;
+	color: #999;
+	font-weight: bold;
+}
+
+#headerright ul li a.active
+{
+	text-decoration: none;
+	color: #AA262D;
+	font-weight: bold;
+}
+
+#headerright ul li a:hover
+{
+	text-decoration: none;
+	color: #333;
+}
+
+
+
+/*-------------------------------- Main Body of Text: Left Frame - Right Frame ------------------*/
+
+#maincont
+{
+	width: 1000px;
+	line-height: 160%;
+	padding: 15px 0 0 0;
+	border-bottom: 2px solid #AA262D;
+}
+
+#maincont p
+{
+	margin: 0 15px 15px 15px;
+}
+
+#maincont h2, h3
+{
+	margin: 0 0 15px 0;
+	padding: 5px 5px;
+	font-size: 120%;
+	font-weight: normal;
+	color: #AA262D;
+	border-bottom: 1px solid #AA262D;
+}
+
+#mainleft
+{
+	float: left;
+	width: 650px;
+	padding: 0 20px 0 0;
+}
+
+#mainleft img
+{
+	float: right;
+	border: 1px solid #CDCDCD;
+	padding: 5px;
+	margin: 0 15px 5px 15px;
+}
+
+#mainright
+{
+	float: left;
+	width: 300px;
+	padding: 0 0 0 15px;
+	 
+}
+
+#bottom
+{
+	clear: both;
+	width: 1000px;
+}
+
+
+/*-------------------------------- Footer ------------------*/
+
+#footercont
+{
+	float: left;
+	width: 800px;
+	height: 50px;
+	color: #999;
+}
+
+#footercont p
+{
+	margin: 0;
+	padding: 15px;
+}
+
+#footercont a
+{
+	color: #999;
+	text-decoration: none;
+}
+
+#footercont a:hover
+{
+	color: #333;
+	text-decoration: none;
+}
+
+#footerleft
+{
+	float: left;
+	width: 150px;
+	height: 50px;
+}
+
+#footerright
+{
+	float: left;
+	width: 650px;
+	height: 20px;
+	text-align: right;
+	 
+}
+
+/*-------------------------------- Hyper Link Properties ------------------*/
+
+a:link {color: #AA262D}     /* unvisited link */
+a:visited {color: #741a1e}  /* visited link */
+a:hover {color: #e10713}   /* mouse over link */
+a:active {color: #ff000a}   /* selected link */
+
